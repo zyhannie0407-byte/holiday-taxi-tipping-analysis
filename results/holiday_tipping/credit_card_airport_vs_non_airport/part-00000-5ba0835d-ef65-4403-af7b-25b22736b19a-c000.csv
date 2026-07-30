@@ -1,0 +1,5 @@
+period,airport_trip_flag,trip_count,avg_tip_amount,avg_tip_rate,avg_fare_amount,avg_trip_distance
+Holiday Season,Airport Trip,257520,12.24,0.2146,59.35,13.3
+Holiday Season,Non-Airport Trip,2332092,3.5,0.2493,16.38,2.36
+Normal Baseline,Airport Trip,262094,11.99,0.2177,57.27,13.57
+Normal Baseline,Non-Airport Trip,2416692,3.37,0.2587,14.52,2.2

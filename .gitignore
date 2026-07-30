@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large local data files
+data/
+*.parquet
+
+# Mac and Spark output metadata
+.DS_Store
+*.crc
+_SUCCESS
+
+# Mac and Spark output metadata
+.DS_Store
+*.crc
+_SUCCESS

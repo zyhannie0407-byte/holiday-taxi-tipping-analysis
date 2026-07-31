@@ -104,11 +104,11 @@ if not airport_df.empty:
 
     st.dataframe(airport_display, use_container_width=True)
 
-    st.subheader("Average Tip Amount by Trip Type")
+    st.subheader("Average Tip Rate by Trip Type")
     chart_df = airport_display.pivot_table(
         index="airport_trip_flag",
         columns="period",
-        values="avg_tip_amount"
+        values="avg_tip_rate_percent"
     )
     st.bar_chart(chart_df)
 
@@ -130,16 +130,26 @@ if not hour_df.empty:
     )
 
 st.header("Main Insight")
-
 st.info(
-    "In the local demo, December holiday trips had a higher average tip amount, "
-    "but a lower average tip rate than the March baseline. This suggests that "
-    "holiday riders paid and tipped more in dollars, but were not necessarily "
-    "more generous as a percentage of fare."
+    "Main finding: Holiday trips had a higher average tip amount than the March baseline, "
+    "but a lower average tip rate. This suggests that riders paid more in dollar tips during "
+    "the holiday season, but they were not necessarily more generous relative to the fare."
 )
 
-st.header("Next Step")
+st.header("Airport vs Non-Airport Trips")
+st.info(
+    "Airport trips had much higher average dollar tips, but lower tip rates than non-airport trips. "
+    "This means the higher airport tips were mainly driven by higher fares, not stronger tipping generosity."
+)
 
+st.header("Borough Differences")
+st.info(
+    "Manhattan showed the strongest tip rates in both periods. Queens had much higher average tip amounts, "
+    "largely because many Queens trips are airport-related and have higher fares."
+)
+
+
+st.header("Next Step")
 st.write(
     "For the final project, I will expand the holiday period to November 20, 2025 "
     "through January 10, 2026, scale the data in AWS, and add a geospatial "

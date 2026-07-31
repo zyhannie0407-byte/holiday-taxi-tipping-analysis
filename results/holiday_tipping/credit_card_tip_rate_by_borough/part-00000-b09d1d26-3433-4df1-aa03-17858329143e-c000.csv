@@ -1,0 +1,17 @@
+period,pickup_borough,trip_count,avg_tip_amount,avg_tip_rate,avg_fare_amount
+Holiday Season,EWR,175,13.17,0.4535,94.91
+Holiday Season,Manhattan,2279860,3.81,0.2602,16.4
+Holiday Season,Unknown,4400,4.78,0.2517,21.17
+Holiday Season,Queens,242468,11.02,0.1994,56.77
+Holiday Season,N/A,650,11.29,0.1358,89.52
+Holiday Season,Staten Island,19,2.75,0.0556,48.79
+Holiday Season,Brooklyn,47736,0.87,0.0412,32.78
+Holiday Season,Bronx,18794,0.13,0.0053,38.38
+Normal Baseline,Staten Island,12,17.91,0.2921,68.47
+Normal Baseline,Manhattan,2415644,3.61,0.2641,15.07
+Normal Baseline,Queens,229586,11.23,0.2588,55.23
+Normal Baseline,Unknown,5819,4.81,0.2497,21.39
+Normal Baseline,N/A,439,9.91,0.2329,74.7
+Normal Baseline,EWR,57,11.65,0.1267,89.04
+Normal Baseline,Brooklyn,24760,1.68,0.0797,29.72
+Normal Baseline,Bronx,6404,0.3,0.0121,37.62

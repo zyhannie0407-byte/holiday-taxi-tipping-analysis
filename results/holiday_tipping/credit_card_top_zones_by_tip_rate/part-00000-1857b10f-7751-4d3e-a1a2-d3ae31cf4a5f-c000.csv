@@ -1,0 +1,158 @@
+period,pickup_borough,pickup_zone,trip_count,avg_tip_amount,avg_tip_rate,avg_fare_amount
+Holiday Season,Manhattan,Upper West Side South,73172,3.44,0.2752,13.75
+Holiday Season,Manhattan,Greenwich Village North,35857,3.7,0.2719,15.03
+Holiday Season,Manhattan,Upper East Side South,148358,3.32,0.2713,13.42
+Holiday Season,Manhattan,Yorkville West,48796,3.19,0.2705,13.22
+Holiday Season,Manhattan,Lincoln Square East,93101,3.56,0.2701,14.42
+Holiday Season,Manhattan,Flatiron,39454,3.66,0.2688,15.41
+Holiday Season,Manhattan,Upper East Side North,128525,3.26,0.2683,13.34
+Holiday Season,Manhattan,Lenox Hill West,63144,3.22,0.2676,13.44
+Holiday Season,Manhattan,Clinton East,60242,3.79,0.2657,16.08
+Holiday Season,Manhattan,West Village,52116,3.65,0.2647,15.21
+Holiday Season,Manhattan,Upper West Side North,49574,3.28,0.2644,13.82
+Holiday Season,Manhattan,Sutton Place/Turtle Bay North,44980,3.68,0.2629,15.33
+Holiday Season,Manhattan,Union Sq,72712,3.71,0.2628,15.52
+Holiday Season,Manhattan,Midtown North,75627,4.11,0.2622,17.07
+Holiday Season,Manhattan,Lincoln Square West,26307,3.23,0.2618,13.96
+Holiday Season,Manhattan,Central Park,40080,3.77,0.2607,15.56
+Holiday Season,Manhattan,Yorkville East,33827,3.42,0.2606,14.44
+Holiday Season,Manhattan,Greenwich Village South,34852,3.68,0.2601,15.48
+Holiday Season,Manhattan,Times Sq/Theatre District,77861,4.66,0.2596,19.96
+Holiday Season,Manhattan,Hudson Sq,11284,3.87,0.2582,16.98
+Holiday Season,Manhattan,Midtown East,98843,4.05,0.2579,16.98
+Holiday Season,Manhattan,Gramercy,51530,3.61,0.2577,15.54
+Holiday Season,Manhattan,Midtown Center,113886,4.18,0.2574,17.54
+Holiday Season,Manhattan,Midtown South,55292,3.93,0.2572,16.84
+Holiday Season,Manhattan,East Village,52612,3.59,0.2561,15.36
+Holiday Season,Manhattan,SoHo,19771,3.98,0.2559,17.07
+Holiday Season,Manhattan,East Chelsea,68499,4.24,0.2554,18.31
+Holiday Season,Manhattan,Murray Hill,69842,3.88,0.2542,16.86
+Holiday Season,Manhattan,Meatpacking/West Village West,20018,3.97,0.2542,17.03
+Holiday Season,Manhattan,Lenox Hill East,53119,3.46,0.2532,15.61
+Holiday Season,Manhattan,UN/Turtle Bay South,26002,4.0,0.2518,17.63
+Holiday Season,Manhattan,Manhattan Valley,18499,3.23,0.2514,14.34
+Holiday Season,Manhattan,Clinton West,11344,3.36,0.2508,15.63
+Holiday Season,Manhattan,Penn Station/Madison Sq West,100609,4.23,0.2502,18.27
+Holiday Season,Manhattan,Little Italy/NoLiTa,25109,3.93,0.2489,17.32
+Holiday Season,Unknown,N/A,4358,4.63,0.2475,20.59
+Holiday Season,Manhattan,West Chelsea/Hudson Yards,42195,3.99,0.2473,17.5
+Holiday Season,Manhattan,Garment District,36904,3.96,0.2472,17.81
+Holiday Season,Manhattan,TriBeCa/Civic Center,32371,4.07,0.2459,19.07
+Holiday Season,Manhattan,Stuy Town/Peter Cooper Village,2505,3.56,0.2457,16.09
+Holiday Season,Manhattan,Kips Bay,25758,3.32,0.2418,16.33
+Holiday Season,Queens,LaGuardia Airport,93123,10.87,0.2414,46.1
+Holiday Season,Manhattan,Lower East Side,22539,3.79,0.2409,17.38
+Holiday Season,Manhattan,Bloomingdale,5792,3.5,0.2392,16.26
+Holiday Season,Manhattan,Battery Park City,13263,5.0,0.2388,22.92
+Holiday Season,Manhattan,World Trade Center,11772,4.95,0.2322,23.86
+Holiday Season,Queens,East Elmhurst,7376,10.4,0.2291,46.34
+Holiday Season,Manhattan,Morningside Heights,10317,3.41,0.2271,17.18
+Holiday Season,Manhattan,Financial District North,12674,4.69,0.2241,23.41
+Holiday Season,Manhattan,Financial District South,7534,4.75,0.2174,24.62
+Holiday Season,Manhattan,Seaport,3966,4.28,0.2165,22.91
+Holiday Season,Manhattan,Chinatown,3763,3.93,0.2109,22.5
+Holiday Season,Manhattan,Alphabet City,3322,3.05,0.2039,18.58
+Holiday Season,Manhattan,East Harlem South,14917,2.74,0.2027,17.69
+Holiday Season,Queens,JFK Airport,103614,12.07,0.1889,63.8
+Holiday Season,Brooklyn,DUMBO/Vinegar Hill,1065,4.4,0.1823,26.6
+Holiday Season,Manhattan,Two Bridges/Seward Park,2840,2.79,0.1572,23.62
+Holiday Season,Manhattan,Central Harlem,5766,2.07,0.1456,20.29
+Holiday Season,Queens,Long Island City/Hunters Point,1571,7.74,0.1444,51.88
+Holiday Season,Queens,Sunnyside,1902,7.26,0.1437,48.83
+Holiday Season,Manhattan,Manhattanville,1222,2.11,0.1412,21.81
+Holiday Season,Brooklyn,Downtown Brooklyn/MetroTech,1393,3.27,0.1363,29.79
+Holiday Season,Manhattan,East Harlem North,5130,1.95,0.1296,21.4
+Holiday Season,Queens,Jackson Heights,1233,7.16,0.1215,49.6
+Holiday Season,Brooklyn,Brooklyn Heights,1295,2.44,0.1209,27.55
+Holiday Season,Queens,South Ozone Park,1594,8.7,0.1041,68.36
+Holiday Season,Brooklyn,Boerum Hill,1273,1.73,0.0959,28.17
+Holiday Season,Manhattan,Hamilton Heights,1785,1.65,0.0954,24.85
+Holiday Season,Brooklyn,Fort Greene,1583,1.75,0.0949,26.63
+Holiday Season,Brooklyn,Park Slope,1207,1.63,0.0831,27.56
+Holiday Season,Manhattan,Washington Heights South,2045,1.8,0.0818,29.55
+Holiday Season,Manhattan,Central Harlem North,3796,0.65,0.0403,27.59
+Holiday Season,Queens,Jamaica,1112,2.09,0.0344,44.64
+Holiday Season,Brooklyn,Clinton Hill,1015,0.51,0.0241,30.38
+Holiday Season,Brooklyn,Bedford,1035,0.31,0.017,29.83
+Holiday Season,Brooklyn,Bushwick South,1003,0.35,0.016,30.53
+Holiday Season,Brooklyn,Stuyvesant Heights,1414,0.13,0.0069,30.57
+Holiday Season,Brooklyn,Crown Heights North,2439,0.13,0.0068,31.13
+Holiday Season,Brooklyn,Prospect-Lefferts Gardens,1727,0.1,0.0057,30.73
+Holiday Season,Brooklyn,Flatbush/Ditmas Park,1693,0.15,0.0047,33.03
+Holiday Season,Brooklyn,Ocean Hill,1090,0.04,0.0022,34.15
+Holiday Season,Brooklyn,Coney Island,1184,0.07,0.0017,42.23
+Holiday Season,Bronx,East Concourse/Concourse Village,1033,0.02,0.0016,32.89
+Holiday Season,Brooklyn,East Flatbush/Farragut,1056,0.06,0.0016,31.89
+Holiday Season,Brooklyn,Flatlands,1311,0.04,0.0013,34.98
+Holiday Season,Brooklyn,East New York,2935,0.05,0.0011,35.43
+Holiday Season,Brooklyn,East Flatbush/Remsen Village,1251,0.02,7.0E-4,32.23
+Holiday Season,Brooklyn,Brownsville,1646,0.02,7.0E-4,34.87
+Holiday Season,Brooklyn,Canarsie,1762,0.01,6.0E-4,36.81
+Normal Baseline,Manhattan,Flatiron,44870,3.38,0.2727,13.73
+Normal Baseline,Manhattan,Upper East Side South,132360,3.19,0.2726,12.69
+Normal Baseline,Manhattan,Upper West Side South,74365,3.39,0.272,13.6
+Normal Baseline,Manhattan,Greenwich Village North,40601,3.47,0.2711,13.93
+Normal Baseline,Manhattan,Clinton East,68276,3.57,0.271,14.68
+Normal Baseline,Manhattan,Lincoln Square East,86519,3.45,0.2709,13.85
+Normal Baseline,Manhattan,Midtown North,79761,3.87,0.2681,15.75
+Normal Baseline,Manhattan,Union Sq,80799,3.42,0.2679,13.83
+Normal Baseline,Manhattan,Lenox Hill West,63108,3.08,0.2677,12.67
+Normal Baseline,Manhattan,Sutton Place/Turtle Bay North,46973,3.43,0.2675,13.93
+Normal Baseline,Manhattan,Times Sq/Theatre District,94999,4.35,0.2664,18.07
+Normal Baseline,Manhattan,Yorkville West,49531,3.15,0.2663,13.07
+Normal Baseline,Manhattan,Midtown East,99512,3.74,0.2662,15.23
+Normal Baseline,Manhattan,Upper East Side North,116392,3.21,0.2656,13.14
+Normal Baseline,Manhattan,Midtown Center,135913,3.87,0.2651,15.7
+Normal Baseline,Manhattan,Midtown South,61197,3.66,0.264,15.24
+Normal Baseline,Manhattan,Lincoln Square West,27958,3.17,0.2638,13.26
+Normal Baseline,Manhattan,Murray Hill,77741,3.57,0.2637,14.79
+Normal Baseline,Manhattan,Upper West Side North,48562,3.28,0.2633,13.69
+Normal Baseline,Manhattan,Gramercy,54267,3.36,0.2622,13.98
+Normal Baseline,Manhattan,East Chelsea,74471,3.85,0.2618,16.02
+Normal Baseline,Manhattan,West Village,65615,3.41,0.2613,14.14
+Normal Baseline,Manhattan,Central Park,39279,3.61,0.2611,14.84
+Normal Baseline,Manhattan,Hudson Sq,14046,3.65,0.2595,15.53
+Normal Baseline,Manhattan,Garment District,40487,3.62,0.2586,15.47
+Normal Baseline,Manhattan,Clinton West,13477,3.29,0.2586,14.27
+Normal Baseline,Manhattan,UN/Turtle Bay South,29395,3.78,0.2579,16.13
+Normal Baseline,Manhattan,West Chelsea/Hudson Yards,49053,3.71,0.2578,15.51
+Normal Baseline,Manhattan,Yorkville East,33584,3.31,0.2576,14.06
+Normal Baseline,Manhattan,Penn Station/Madison Sq West,101591,3.76,0.2569,15.78
+Normal Baseline,Manhattan,Greenwich Village South,43718,3.4,0.2566,14.33
+Normal Baseline,Manhattan,Lenox Hill East,53270,3.44,0.255,14.92
+Normal Baseline,Manhattan,SoHo,22525,3.63,0.2541,15.56
+Normal Baseline,Manhattan,Kips Bay,26988,3.19,0.2538,14.11
+Normal Baseline,Manhattan,East Village,65921,3.34,0.2536,14.22
+Normal Baseline,Manhattan,Meatpacking/West Village West,25604,3.67,0.2529,15.69
+Normal Baseline,Manhattan,TriBeCa/Civic Center,36130,3.95,0.2514,17.6
+Normal Baseline,Manhattan,Little Italy/NoLiTa,28583,3.53,0.2499,15.39
+Normal Baseline,Unknown,N/A,5779,4.7,0.2491,20.83
+Normal Baseline,Manhattan,Stuy Town/Peter Cooper Village,2490,3.4,0.2484,14.91
+Normal Baseline,Manhattan,Manhattan Valley,19287,3.28,0.2478,14.33
+Normal Baseline,Queens,LaGuardia Airport,92178,10.3,0.2463,42.62
+Normal Baseline,Manhattan,Bloomingdale,5886,3.47,0.2406,15.4
+Normal Baseline,Manhattan,Battery Park City,16121,4.95,0.2401,22.11
+Normal Baseline,Manhattan,Lower East Side,29536,3.6,0.24,16.33
+Normal Baseline,Queens,East Elmhurst,9332,9.94,0.2391,42.25
+Normal Baseline,Manhattan,World Trade Center,12785,4.82,0.2385,22.02
+Normal Baseline,Manhattan,Morningside Heights,11340,3.63,0.2337,16.81
+Normal Baseline,Manhattan,Chinatown,3601,4.06,0.2317,20.0
+Normal Baseline,Manhattan,Financial District North,13592,4.62,0.2315,21.75
+Normal Baseline,Manhattan,Alphabet City,4000,3.28,0.2311,15.73
+Normal Baseline,Manhattan,Seaport,4258,4.34,0.2302,21.05
+Normal Baseline,Manhattan,Financial District South,7056,4.86,0.2233,23.79
+Normal Baseline,Manhattan,East Harlem South,12673,2.98,0.221,15.66
+Normal Baseline,Manhattan,Two Bridges/Seward Park,2508,3.49,0.2082,19.86
+Normal Baseline,Queens,JFK Airport,104484,12.33,0.1907,64.52
+Normal Baseline,Manhattan,Central Harlem,4751,2.59,0.1878,16.33
+Normal Baseline,Brooklyn,Downtown Brooklyn/MetroTech,1188,4.12,0.1834,25.75
+Normal Baseline,Manhattan,Manhattanville,1113,2.93,0.176,18.98
+Normal Baseline,Queens,Long Island City/Hunters Point,1017,7.41,0.1752,44.82
+Normal Baseline,Manhattan,East Harlem North,3775,2.54,0.1734,17.28
+Normal Baseline,Queens,Sunnyside,1470,7.01,0.1664,44.0
+Normal Baseline,Manhattan,Hamilton Heights,1181,2.79,0.1555,21.39
+Normal Baseline,Brooklyn,Fort Greene,1104,3.04,0.1523,23.8
+Normal Baseline,Manhattan,Washington Heights South,1223,2.86,0.1276,27.27
+Normal Baseline,Manhattan,Central Harlem North,1827,1.31,0.0826,24.03
+Normal Baseline,Brooklyn,Crown Heights North,1230,0.24,0.0134,26.85
+Normal Baseline,Brooklyn,East New York,1240,0.03,0.0013,35.16

@@ -8,6 +8,17 @@ The analysis examines whether NYC Yellow Taxi riders tip more generously during 
 
 Do NYC taxi riders tip more generously during the holiday season compared with normal non-holiday periods?
 
+## Input Data Links
+
+The raw input files are not stored directly in this repository because the full dataset is too large for GitHub.
+
+The project uses publicly available NYC TLC datasets:
+
+- NYC TLC Yellow Taxi Trip Records: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+- NYC Taxi Zone Lookup Table: https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv
+
+For the cloud-scale analysis, I uploaded the selected Yellow Taxi Parquet files to Amazon S3 under the `raw/yellow_taxi/` folder and uploaded the taxi zone lookup file under the `lookup/` folder.
+
 ## Quick Summary
 
 This project combines:

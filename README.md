@@ -2,7 +2,7 @@
 
 This project is my final submission for **CS675 Big Data: Management & Analytics**.
 
-The analysis examines whether NYC Yellow Taxi riders tip more generously during holiday periods than during normal baseline periods, while accounting for differences in trip composition such as airport direction, pickup borough, pickup hour, and fare size.
+The analysis examines whether NYC Yellow Taxi riders tip more generously during holiday periods than during normal baseline periods. It also considers differences in trip composition, including airport direction, pickup borough, pickup hour, fare size, and trip distance.
 
 ## Project Question
 
@@ -15,6 +15,7 @@ This project combines:
 - a local PySpark demo for pipeline validation
 - a cloud-scale analysis using Amazon S3 and Amazon Athena
 - a Streamlit dashboard for exploring the results
+- a standalone Docker setup so the dashboard and Python environment can be reproduced from this repository
 
 The core idea is to measure tipping behavior using a standardized metric rather than relying on raw dollar amounts alone.
 
@@ -44,13 +45,16 @@ The local demo uses a smaller sample:
 
 The cloud-scale version uses multi-year post-COVID Yellow Taxi data stored in Amazon S3 and queried with Amazon Athena.
 
+The raw input files are not stored directly in this GitHub repository because the full dataset is large. The project instead includes summarized output files in `results/` and `cloud_results/`.
+
 ## Tools Used
 
 - Python
 - PySpark
-- Dockerized Spark environment provided by the course
+- Docker
 - Pandas
 - Streamlit
+- Plotly
 - Amazon S3
 - Amazon Athena
 - GitHub
@@ -60,17 +64,9 @@ The cloud-scale version uses multi-year post-COVID Yellow Taxi data stored in Am
 ```text
 .
 ├── README.md
-├── 00_hello_spark.py
-├── 01_word_count.py
-├── 02_taxi_analysis.py
-├── 03_taxi_tipping.py
-├── 04_taxi_payments.py
-├── 05_taxi_data_prep.py
-├── 06_zones_analysis.py
-├── 07_citibike_analysis.py
-├── 08_taxi_classification.py
-├── constants.py
-├── spark_helper.py
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
 ├── holiday_tipping_analysis.py
 ├── holiday_tipping_dashboard.py
 ├── cloud_queries/
@@ -89,15 +85,45 @@ The cloud-scale version uses multi-year post-COVID Yellow Taxi data stored in Am
 │   ├── tip_rate_by_hour.csv
 │   ├── tip_rate_by_borough.csv
 │   └── zone_hour_controlled_comparison.csv
-├── data/
-│   ├── README.md
-│   └── shakespeare_complete_works.txt
 ├── results/
 │   └── holiday_tipping/
-├── compose.yaml
-├── compose.debug.yaml
-├── Dockerfile
 └── .gitignore
+```
+
+## Reproducible Docker Environment
+
+This repository includes a standalone Docker setup so the project environment can be reproduced without relying on another code base.
+
+The Docker setup includes:
+
+- `Dockerfile`
+- `docker-compose.yml`
+- `requirements.txt`
+
+The container installs the Python dependencies needed for the dashboard and project code, including PySpark, Pandas, Streamlit, Plotly, PyArrow, and Matplotlib.
+
+### Run the Dockerized Dashboard
+
+Start Docker Desktop first.
+
+From the root of this repository, run:
+
+```bash
+docker compose -f docker-compose.yml up --build
+```
+
+Then open the dashboard in a browser:
+
+```text
+http://localhost:8501
+```
+
+This runs the Streamlit dashboard from the self-contained Docker environment included in this repository.
+
+To stop the container, press:
+
+```text
+Control + C
 ```
 
 ## Local PySpark Demo
@@ -114,40 +140,23 @@ The local PySpark pipeline includes these steps:
 6. Generate result CSV files by group.
 7. Feed the results into the Streamlit dashboard.
 
-### Run the Local PySpark Analysis
-
-This project uses the course-provided Dockerized PySpark environment.
-
-Start Docker Desktop first. Then, from the course `code-starter` folder, run:
-
-```bash
-make up
-```
-
-After the environment is running, execute the analysis script inside the container:
-
-```bash
-docker compose exec pyspark python /home/jovyan/work/holiday_tipping_analysis.py
-```
-
-The script writes the summarized results to:
+The summarized local output files are included under:
 
 ```text
-work/results/holiday_tipping/
+results/holiday_tipping/
 ```
 
-### Run the Dashboard
+The local PySpark script is:
 
-From the `code-starter` folder, run:
-
-```bash
-streamlit run work/holiday_tipping_dashboard.py
+```text
+holiday_tipping_analysis.py
 ```
 
-The dashboard includes:
+The dashboard script is:
 
-- local PySpark demo results
-- cloud-scale Athena result visualizations
+```text
+holiday_tipping_dashboard.py
+```
 
 ## Cloud-Scale Athena Workflow
 
@@ -234,5 +243,3 @@ The project shows that holiday-season taxi tipping behavior differs from normal 
 The main conclusion is:
 
 > Holiday tipping differences are subtle and should be analyzed through controlled comparisons rather than simple averages alone.
-
-```

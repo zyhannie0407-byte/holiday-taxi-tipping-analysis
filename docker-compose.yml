@@ -1,0 +1,9 @@
+services:
+  holiday-taxi-app:
+    build: .
+    container_name: holiday_taxi_tipping_app
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    command: streamlit run holiday_tipping_dashboard.py --server.address=0.0.0.0 --server.port=8501
